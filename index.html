@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errol Kotas | Order Kota Chips Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>FRAMOR KOTAS</h1>
+                        <p>Premium Kota Chips & Fast Food....Laha utatwa kunandzika!</p>
+                </div>
+            </div>
+            
+            <!-- Main Navigation -->
+            <nav class="main-nav">
+                <div class="nav-links">
+                    <a href="#snacks" class="active">
+                        <i class="fas fa-cookie-bite"></i>
+                        <span>SNACKS</span>
+                    </a>
+                    <a href="#kota-chips">
+                        <i class="fas fa-hotdog"></i>
+                        <span>KOTA & CHIPS</span>
+                    </a>
+                    <a href="#drinks">
+                        <i class="fas fa-wine-bottle"></i>
+                        <span>DRINKS</span>
+                    </a>
+                    <a href="#burger">
+                        <i class="fas fa-hamburger"></i>
+                        <span>BURGER</span>
+                    </a>
+                    <a href="#pizza">
+                        <i class="fas fa-pizza-slice"></i>
+                        <span>PIZZA</span>
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="cart-icon" id="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                
+                <button class="order-btn" id="order-now-btn">ORDER NOW</button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Floating WhatsApp Order Button -->
+    <div class="floating-order-btn" id="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+        <span>Order via WhatsApp</span>
+    </div>
+    
+    <!-- Category Navigation Bar -->
+    <div class="category-nav">
+        <div class="container category-container">
+            <a href="#snacks" class="category-item active">
+                <i class="fas fa-cookie-bite"></i>
+                <span>SNACKS</span>
+            </a>
+            <a href="#kota-chips" class="category-item">
+                <i class="fas fa-hotdog"></i>
+                <span>KOTA & CHIPS</span>
+            </a>
+            <a href="#drinks" class="category-item">
+                <i class="fas fa-wine-bottle"></i>
+                <span>DRINKS</span>
+            </a>
+            <a href="#burger" class="category-item">
+                <i class="fas fa-hamburger"></i>
+                <span>BURGER</span>
+            </a>
+            <a href="#pizza" class="category-item">
+                <i class="fas fa-pizza-slice"></i>
+                <span>PIZZA</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>CRISPY <span>KOTA CHIPS</span> & TASTY FAST FOOD</h2>
+            <p>Experience the ultimate fusion of crispy kota chips, juicy burgers, delicious pizzas, and refreshing drinks. Made fresh daily with premium ingredients and secret spices that will keep you coming back for more!</p>
+            <a href="#kota-chips" class="cta-button" id="hero-order-btn">ORDER ONLINE NOW</a>
+        </div>
+    </section>
+    
+    <!-- Kota & Chips Section -->
+    <section id="kota-chips" class="products-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>KOTA & CHIPS</h2>
+            </div>
+            
+            <div class="products-grid">
+                
+               <div class="product-card" data-category="kota-chips" data-name="Classic Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Kota</h3>
+                        <p>Our signature kota with crispy chips, Russian sausage, cheese, and special sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="45">R45.00</span>
+                            <button class="add-to-cart" data-product="Classic Kota" data-price="45">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="kota-chips" data-name="Chicken Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chicken Kota</h3>
+                        <p>Tender chicken strips, crispy chips, fresh veggies, and mayo dressing.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="55">R55.00</span>
+                            <button class="add-to-cart" data-product="Chicken Kota" data-price="55">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="kota-chips" data-name="Cheese Lover's Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">POPULAR</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cheese Lover's Kota</h3>
+                        <p>Extra cheese, crispy chips, Vienna sausages, and our special cheese sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="60">R60.00</span>
+                            <button class="add-to-cart" data-product="Cheese Lover's Kota" data-price="60">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="kota-chips" data-name="Spicy Chips">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Chips</h3>
+                        <p>Our famous crispy chips with peri-peri seasoning and special spicy dip.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="35">R35.00</span>
+                            <button class="add-to-cart" data-product="Spicy Chips" data-price="35">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+    
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+                <button class="close-cart" id="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be inserted here dynamically -->
+                <div class="empty-cart-message" style="text-align: center; padding: 40px 20px; color: #777;">
+                    <i class="fas fa-shopping-cart" style="font-size: 3rem; margin-bottom: 15px; opacity: 0.5;"></i>
+                    <h3>Your cart is empty</h3>
+                    <p>Add some delicious items from our menu!</p>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total">R0.00</span>
+                </div>
+                <div class="cart-actions">
+                    <button class="cart-btn clear-cart-btn" id="clear-cart">
+                        <i class="fas fa-trash-alt"></i> Clear Cart
+                    </button>
+                    <button class="cart-btn checkout-btn" id="checkout-btn">
+                        <i class="fas fa-check-circle"></i> Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Order Form Modal -->
+    <div class="order-modal" id="order-modal">
+        <div class="order-content">
+            <div class="order-header">
+                <h3><i class="fas fa-shopping-bag"></i> Complete Your Order</h3>
+            </div>
+            <form class="order-form" id="order-form">
+                <div class="form-group">
+                    <label for="customer-name"><i class="fas fa-user"></i> Full Name</label>
+                    <input type="text" id="customer-name" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="customer-phone"><i class="fas fa-phone"></i> Phone Number</label>
+                    <input type="tel" id="customer-phone" required placeholder="Enter your phone number">
+                </div>
+                
+                <div class="form-group">
+                    <label for="customer-email"><i class="fas fa-envelope"></i> Email Address</label>
+                    <input type="email" id="customer-email" required placeholder="Enter your email address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="customer-address"><i class="fas fa-map-marker-alt"></i> Delivery Address</label>
+                    <textarea id="customer-address" rows="3" required placeholder="Enter your full delivery address"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="delivery-time"><i class="fas fa-clock"></i> Preferred Delivery Time</label>
+                    <select id="delivery-time">
+                        <option value="asap">As Soon As Possible</option>
+                        <option value="30min">Within 30 minutes</option>
+                        <option value="1hour">Within 1 hour</option>
+                        <option value="2hours">Within 2 hours</option>
+                    </select>
+                </div>
+                
+                <div class="order-summary">
+                    <h4><i class="fas fa-receipt"></i> Order Summary</h4>
+                    <div class="order-items-list" id="order-items-list">
+                        <!-- Order items will be inserted here -->
+                    </div>
+                    <div class="order-total" id="order-summary-total">Total: R0.00</div>
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-paper-plane"></i> Choose Order Method</label>
+                    <div class="order-methods">
+                        <div class="order-method whatsapp-method active" data-method="whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <p>Order via WhatsApp</p>
+                            <small>Fast & Direct</small>
+                        </div>
+                        <div class="order-method email-method" data-method="email">
+                            <i class="fas fa-envelope"></i>
+                            <p>Order via Email</p>
+                            <small>Detailed receipt</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-order-btn">
+                    <i class="fas fa-paper-plane"></i> Place Order
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Success Message -->
+    <div class="success-message" id="success-message">
+        <i class="fas fa-check-circle" style="font-size: 2rem;"></i>
+        <div>
+            <h4 style="margin-bottom: 5px;">Order Placed Successfully!</h4>
+            <p id="success-message-text">Your order has been sent via WhatsApp.</p>
+        </div>
+    </div>
+    
+    <!-- Drinks Section -->
+    <section id="drinks" class="products-section" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>REFRESHING DRINKS</h2>
+            </div>
+            
+            <div class="products-grid">
+
+                 <!-- Products -->
+               
+                <div class="product-card" data-category="kota-chips" data-name="Classic Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Kota</h3>
+                        <p>Our signature kota with crispy chips, Russian sausage, cheese, and special sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="45">R45.00</span>
+                            <button class="add-to-cart" data-product="Classic Kota" data-price="45">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="kota-chips" data-name="Chicken Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chicken Kota</h3>
+                        <p>Tender chicken strips, crispy chips, fresh veggies, and mayo dressing.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="55">R55.00</span>
+                            <button class="add-to-cart" data-product="Chicken Kota" data-price="55">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="kota-chips" data-name="Cheese Lover's Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" width="370" height="300"></i>
+                        <div class="product-badge">POPULAR</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cheese Lover's Kota</h3>
+                        <p>Extra cheese, crispy chips, Vienna sausages, and our special cheese sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="60">R60.00</span>
+                            <button class="add-to-cart" data-product="Cheese Lover's Kota" data-price="60">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="kota-chips" data-name="Spicy Chips">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Chips</h3>
+                        <p>Our famous crispy chips with peri-peri seasoning and special spicy dip.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="35">R35.00</span>
+                            <button class="add-to-cart" data-product="Spicy Chips" data-price="35">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Burger Section -->
+    <section id="burger" class="products-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>DELICIOUS BURGERS</h2>
+            </div>
+            
+            <div class="products-grid">
+               <div class="product-card" data-category="kota-chips" data-name="Classic Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1770556628/burger1_ifxo4r.webp" height="300px" width="370px"></i>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Burger</h3>
+                        <p>Our signature burger with crispy chips, Russian sausage, cheese, and special sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="45">R45.00</span>
+                            <button class="add-to-cart" data-product="Classic Kota" data-price="45">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="kota-chips" data-name="Chicken Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1770556939/burger2_o0sy9n.webp" height="230px" width="370px"></i>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Burger Crispy</h3>
+                        <p>Tender chicken strips, crispy chips, fresh veggies, and mayo dressing.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="55">R55.00</span>
+                            <button class="add-to-cart" data-product="Chicken Kota" data-price="55">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3-->
+                <div class="product-card" data-category="kota-chips" data-name="Chicken Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1770557212/burger4_ylfufj.webp" height="220px" width="350px"></i>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Burger Letus</h3>
+                        <p>Tender chicken strips, crispy chips, fresh veggies, and mayo dressing.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="55">R35.00</span>
+                            <button class="add-to-cart" data-product="Chicken Kota" data-price="55">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="kota-chips" data-name="Cheese Lover's Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1770557588/burger3_hkwz9h.webp"></i>
+                        <div class="product-badge">POPULAR</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cheese Lover's Burger</h3>
+                        <p>Extra cheese, crispy chips, and our special cheese sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="60">R30.00</span>
+                            <button class="add-to-cart" data-product="Cheese Lover's Kota" data-price="60">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="kota-chips" data-name="Spicy Chips">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1770557798/framo1_cmncrm.jpg" height="300px" width="370px"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Chips</h3>
+                        <p>Our famous crispy chips with peri-peri seasoning and special spicy dip.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="35">R35.00</span>
+                            <button class="add-to-cart" data-product="Spicy Chips" data-price="35">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pizza Section -->
+    <section id="pizza" class="products-section" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>FRESHLY BAKED PIZZAS</h2>
+            </div>
+            
+            <div class="products-grid">
+                
+                <div class="product-card" data-category="kota-chips" data-name="Classic Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Kota</h3>
+                        <p>Our signature kota with crispy chips, Russian sausage, cheese, and special sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="45">R45.00</span>
+                            <button class="add-to-cart" data-product="Classic Kota" data-price="45">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="kota-chips" data-name="Chicken Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chicken Kota</h3>
+                        <p>Tender chicken strips, crispy chips, fresh veggies, and mayo dressing.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="55">R55.00</span>
+                            <button class="add-to-cart" data-product="Chicken Kota" data-price="55">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="kota-chips" data-name="Cheese Lover's Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg"></i>
+                        <div class="product-badge">POPULAR</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cheese Lover's Kota</h3>
+                        <p>Extra cheese, crispy chips, Vienna sausages, and our special cheese sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="60">R60.00</span>
+                            <button class="add-to-cart" data-product="Cheese Lover's Kota" data-price="60">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="kota-chips" data-name="Spicy Chips">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Chips</h3>
+                        <p>Our famous crispy chips with peri-peri seasoning and special spicy dip.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="35">R35.00</span>
+                            <button class="add-to-cart" data-product="Spicy Chips" data-price="35">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Snacks Section -->
+    <section id="snacks" class="products-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>TASTY SNACKS</h2>
+            </div>
+            
+            <div class="products-grid">
+                
+                <div class="product-card" data-category="kota-chips" data-name="Classic Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Kota</h3>
+                        <p>Our signature kota with crispy chips, Russian sausage, cheese, and special sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="45">R45.00</span>
+                            <button class="add-to-cart" data-product="Classic Kota" data-price="45">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="kota-chips" data-name="Chicken Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chicken Kota</h3>
+                        <p>Tender chicken strips, crispy chips, fresh veggies, and mayo dressing.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="55">R55.00</span>
+                            <button class="add-to-cart" data-product="Chicken Kota" data-price="55">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="kota-chips" data-name="Cheese Lover's Kota">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg"></i>
+                        <div class="product-badge">POPULAR</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cheese Lover's Kota</h3>
+                        <p>Extra cheese, crispy chips, Vienna sausages, and our special cheese sauce.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="60">R60.00</span>
+                            <button class="add-to-cart" data-product="Cheese Lover's Kota" data-price="60">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="kota-chips" data-name="Spicy Chips">
+                    <div class="product-img">
+                        <i class=><img src="https://res.cloudinary.com/duiqp2abl/image/upload/v1769529584/framo3_tnugdl.jpg" height="300px" width="370px"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Chips</h3>
+                        <p>Our famous crispy chips with peri-peri seasoning and special spicy dip.</p>
+                        <div class="product-quantity">
+                            <button class="qty-decrease">-</button>
+                            <input type="number" value="1" min="1" class="qty-input">
+                            <button class="qty-increase">+</button>
+                        </div>
+                        <div class="product-price">
+                            <span class="price" data-price="35">R35.00</span>
+                            <button class="add-to-cart" data-product="Spicy Chips" data-price="35">
+                                <i class="fas fa-cart-plus"></i>
+                                ADD
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Customer Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>CUSTOMER LOVE <span style="color: var(--kfc-red);">FRAMOR KOTAS</span></h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The kota chips are absolutely amazing! Crispy on the outside, perfect on the inside. Best in town!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">TN</div>
+                        <div>
+                            <h4>Thandi N.</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"WhatsApp ordering is so convenient! My order arrived hot and fresh within 30 minutes. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div>
+                            <h4>Jabu M.</h4>
+                            <p>Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="star-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The pizzas are incredible! Tried the Margherita and it was perfection. Will order again!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SB</div>
+                        <div>
+                            <h4>Siya B.</h4>
+                            <p>Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>ABOUT <span style="color: var(--kfc-red);">FRAMOR KOTAS</span></h2>
+                    <p>Welcome to Framor Kotas, your ultimate destination for premium kota chips and delicious fast food! With years of experience serving the community of Mbhekwana, we pride ourselves on delivering authentic flavors, quality ingredients, and exceptional customer service.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Fresh Ingredients</h3>
+                            <p>Made daily with premium, quality ingredients</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Fast Delivery</h3>
+                            <p>Quick and reliable WhatsApp ordering system</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Expert Chefs</h3>
+                            <p>Prepared by skilled and experienced chefs</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Best Prices</h3>
+                            <p>Quality food at affordable prices</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-restaurant"></i>
+                        <h3>Your Local Food Hub</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Special Offers Banner -->
+    <section class="offers-banner" style="background: linear-gradient(135deg, #E4002B 0%, #FF6B6B 100%); padding: 60px 0; text-align: center; color: white; margin-bottom: 0;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">🎉 SPECIAL OFFER! 🎉</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 30px;">Order 5+ items and get 15% OFF your entire order!</p>
+            <p style="font-size: 1rem; opacity: 0.9;">Valid all week long • Delivery available • WhatsApp or Call to Order</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>FRAMOR KOTAS</h3>
+                    <p>We serve the crispiest, most delicious kota chips in town. Made fresh daily with quality ingredients and a whole lot of love.....Lah utatwa kunandzika!</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>ORDER METHODS</h3>
+                    <a href="tel:0609050450"><i class="fas fa-phone"></i> Call: 060 905 0450</a>
+                    <a href="https://wa.me/27609050450"><i class="fab fa-whatsapp"></i> WhatsApp Order</a>
+                    <a href="mailto:morganfrans6@gmail.com"><i class="fas fa-envelope"></i> Email Order</a>
+                    <a href="#"><i class="fas fa-store"></i> Visit Our Store</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>CONTACT INFO</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 40056 Vhelemu street, Mbhekwana</p>
+                        <p><i class="fas fa-phone"></i> 060 905 0450</p>
+                        <p><i class="fas fa-envelope"></i> info@framorKotas.co.za</p>
+                        <p><i class="fas fa-clock"></i> Mon-Friday: 9am - 10pm</p>
+                        <p><i class="fas fa-clock"></i> Sat-Sun: 10am - 11pm</p>
+
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>NEWSLETTER</h3>
+                    <p>Subscribe to get special offers and updates</p>
+                    <div class="newsletter">
+                        <input type="email" id="newsletter-email" placeholder="Your email address">
+                        <button class="order-btn" style="width: 100%;">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 Framor Kotas. All rights reserved. | This is a fully functional website demo with order system</p>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
