@@ -227,6 +227,9 @@
         function showSuccessMessage(message) {
             successMessageText.textContent = message;
             successMessage.classList.add('show');
+                setTimeout(() =>{
+                        successMessage.ClassList.remove('show');
+                }, 5000);
             
             setTimeout(() => {
                 successMessage.classList.remove('show');
@@ -671,4 +674,5 @@
             });
         });
    
+
 
